@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Pamadora_web/style.css">
+    <script src="https://kit.fontawesome.com/520ff43d5a.js" crossorigin="anonymous"></script>
+    <title>pomodoro</title>
+</head>
+<body>
+    <!-- left side div task wala -->
+    <div class="mainWrapper">
+        <div class="screenCover" id = "screenCover"></div>
+
+        <div id="leftDiv" class="leftDiv">
+    
+            <div class="leftHeader">
+
+                <div class="taskStatus">
+                    <!-- <div class="pending hover btn">
+                        <i class="fa-regular fa-square"></i>   
+                        Pending                     
+                    </div> -->
+
+                    <button type="button" class="pending btn" id="pendingTaskBtn">Pending</button>
+                    <button type="button" class="Completed"  id="CompletedTaskBtn">Completed</button>
+
+
+                    <!-- <div class="Completed hover">
+                        <i class="fa-solid fa-square-check"></i>
+                        Completed
+                    </div> -->
+                </div>        
+
+            </div>
+    
+            <div class="leftBodyParent" id="leftBodyParent">
+
+                <div class="taskBody" id="taskBody"></div>
+
+                <div class="leftBody" id="leftBody">
+                    <i class="fa-solid fa-list-check"></i>
+                    <!-- <i class="fa-solid fa-plus"></i> -->
+                    <span>No Pending task for this day</span>
+                    <span class="addTask hover" id="addTask">Add a new task</span>
+                </div>
+
+                <!-- <div class="taskForm hidden" id="taskForm">   
+                    <div class="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <form autocomplete="off">
+                        <div class="formInputBox">
+                            <label>Enter tasks</label>
+                            <br>
+                            <input type="text" id="taskInput" placeholder="Enter Task">
+                            
+                            <label>Select Date</label><br>
+                            <input type="date" id="dateInput" placeholder="Select Date">
+                        </div>
+                        
+                        <div class="taskFormBtn">
+                            <button type="button" id="addTaskBtn">Add Task</button>
+                        </div>
+                    </form>
+                </div> -->
+
+                <div class="taskForm hidden" id="taskForm">
+                    <input type="text" maxlength="200" placeholder="Enter Task" id="taskInput">
+                    <button type="button" id="addTaskBtn">Add Task</button>
+                </div>
+                
+
+            </div>
+        </div>
+    
+    
+        <!-- right side div timer wala -->
+        <div id="rightDiv" class="rightDiv">
+            <div class="rightHeaader">
+                <div class="updatetime hover" id="updatetime" data-text="⚙️ Update Pomodoro" data-icon="⚙️">                    
+                    <!-- <i class="fa-solid fa-gears"></i> -->
+                    
+                </div>
+            </div>
+
+            <div class="rightBody">
+                <div class="controls" id="controls">
+                    <button class="btn modeBtn" id="FocusBtn">Focus</button>
+                    <button id="shrtBtn" class="modeBtn">Short Break</button>
+                    <button id="lngBtn" class="modeBtn">Long Break</button>
+                </div>
+
+                <div class="timer" id="timer">
+                    <!-- <span class="hrs"></span> -->
+                    <!-- <span class="partition">:</span> -->
+                    <!-- <span class="min"></span> -->
+                    <!-- <span class="partition">:</span> -->
+                    <!-- <span class="sec"></span> -->
+                </div>
+
+                <div class="addTime" id="addTime">
+                    <button class="increaseTimeBtn">+25</button>
+                    <button class="increaseTimeBtn">+10</button>
+                    <button class="increaseTimeBtn">+5</button>
+                    <button class="increaseTimeBtn">+1</button>
+                </div>
+
+                <div class="timerControls">
+                    <button class="btn startBtn" id="startBtn">Start</button>
+                    <!-- <button class="pauseBtn">Pause</button> -->
+                    <button class="resetBtn" id="resetBtn">Reset</button>
+                </div>
+
+            </div>            
+        </div>    
+        
+        
+        <!-- forms -->
+
+        <div class="updatePomo" id="updatePomo">
+            <form action="#" >
+                <label for="pomoDur1">Pomodoro duration (minutes)</label>
+                <input type="number" name="pomoDur1" id="pomoDur1" min="25" max="100" placeholder="25" autocomplete="off">
+
+                    <div class="formDiv">
+                        <label for="pomoDur2">Short break (min)</label> 
+                        <input type="number" name="pomoDur2" id="pomoDur2" min="5" max="30" placeholder="5" autocomplete="off">
+
+                        <label for="pomoDur3">Long break (min)</label> 
+                        <input type="number" name="pomoDur3" id="pomoDur3" min="10" max="30" placeholder="10" autocomplete="off">                        
+                    </div>
+
+                <button id="formBtn" type="button" >Update Settings</button>
+            </form>                                                       
+        </div>
+
+    </div>
+
+
+    <script src="/Pamadora_web/script.js"></script>
+</body>
+</html>
+
+
+
+<!-- https://redporn.porn/16460719?title=hard-pounding-alongside-wild-brunette-keira-croft -->
