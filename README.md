@@ -2,7 +2,7 @@
 
 *A simple and effective Pomodoro Timer built with HTML, CSS, and JavaScript to help you stay focused and improve productivity.*
 
-🔗 Live Demo: [Open Vercel Live Site](https://your-vercel-link.com)
+🔗 Live Demo: [Open Vercel Live Site](https://pomodoro-sepia-beta.vercel.app/)
 
 
 ## 🚀 Features
