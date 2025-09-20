@@ -479,6 +479,7 @@ function addNewNotes(){
             console.log('delete clicked!!!');
             if(completedTaskArr.length>=8){
                 completedTaskArr.shift();
+                completedTaskArr.push(addTaskArr[index]);
             }else{
                 if(addTaskArr[index]){
                     completedTaskArr.push(addTaskArr[index]);
