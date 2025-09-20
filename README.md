@@ -1,4 +1,4 @@
-⏳ Pomodoro Timer Website
+# ⏳ Pomodoro Timer Website
 
 A simple and effective Pomodoro Timer built with HTML, CSS, and JavaScript to help you stay focused and improve productivity.
 
@@ -6,13 +6,13 @@ A simple and effective Pomodoro Timer built with HTML, CSS, and JavaScript to he
 
 📸 Screenshots
 Desktop View
-.\Private\Screenshot 2025-09-20 140420.png
+(.\Private\Screenshot 2025-09-20 140420.png)
 
 Mobile View
-.\practice\Pamadora_web\Private\Screenshot 2025-09-20 140639.png
+(.\Private\Screenshot 2025-09-20 140639.png)
 
 
-🚀 Features
+# 🚀 Features
 
 🎯 Pomodoro Technique: 25 min focus + 5 min break cycles
 
