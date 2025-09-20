@@ -1,20 +1,15 @@
 # ⏳ Pomodoro Timer Website
 
-A simple and effective Pomodoro Timer built with HTML, CSS, and JavaScript to help you stay focused and improve productivity.
+*A simple and effective Pomodoro Timer built with HTML, CSS, and JavaScript to help you stay focused and improve productivity.*
 
 🔗 Live Demo: https://pomodoro-sepia-beta.vercel.app/
 
-📸 Screenshots
-![Desktop Screenshot](./Private/dekstop.png)
 
-![Mobile Screenshot](./Private/mobile.png)
+## 🚀 Features
 
+**🎯 Pomodoro Technique:** 25 min focus + 5 min break cycles
 
-# 🚀 Features
-
-🎯 Pomodoro Technique: 25 min focus + 5 min break cycles
-
-🌓 Responsive Design: Works on both desktop & mobile
+**🌓 Responsive Design:** Works on both desktop & mobile
 
 ⏱️ Start / Pause / Reset Controls
 
@@ -22,10 +17,16 @@ A simple and effective Pomodoro Timer built with HTML, CSS, and JavaScript to he
 
 📊 Tracks multiple cycles
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 HTML5
 
 CSS3
 
 JavaScript (Vanilla)
+
+📸 Screenshots
+![Desktop Screenshot](./Private/dekstop.png)
+
+![Mobile Screenshot](./Private/mobile.png)
+
