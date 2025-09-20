@@ -422,6 +422,7 @@ function addTaskBtnHandler(event){
     // console.log(addTaskArr)
     console.log('done clicked!!');
     addNewNotes()
+    updateTaskSelection();
     // addTaskArr.splice(taskIndex,1);
     // taskIndex--;
     console.log('taskindex in addTassk',taskIndex);
@@ -510,10 +511,46 @@ function addNewNotes(){
         taskBody.appendChild(taskWrapper);
      
     })
+    updateTaskSelection()
  
 }
 // localStorage.setItem('pendingTasks', JSON.stringify(addTaskArr));
 // localStorage.setItem('completedTasks', JSON.stringify(completedTaskArr));
+
+function updateTaskSelection(){
+    console.log('taskSelectionHandler slicked!!')
+    taskSelection.innerHTML = '';
+
+    const defaultOption = document.createElement('option');
+    defaultOption.value = '';
+    defaultOption.textContent = 'Select Task';
+    defaultOption.selected = true;
+    defaultOption.disabled = true;
+    taskSelection.appendChild(defaultOption);
+
+    
+    addTaskArr.forEach((element,index)=>{
+        const taskoption=document.createElement('option')
+        taskoption.value=index
+        
+        let text = element.taskInputVal;
+        if (text.length > 20) {
+            text = text.substring(0, 17) + '...';
+        }
+        // console.log("text::=",text);
+
+        taskoption.textContent=text
+        taskSelection.appendChild(taskoption);
+        // taskSelection.options=element;
+        // console.log('taskSelection::',taskSelection);
+    })
+
+
+}
+
+taskSelection.addEventListener('change',function(){
+    const selectedIndex=taskSelection.value;
+})
 
 
 // .................delete Task..............
@@ -534,6 +571,9 @@ function CompletedTaskBtnHandler(){
 
     completedTaskArr.forEach((element,index)=>{  
         if (!element || !element.taskInputVal) return;
+
+        dateInputVal=new Date();
+        dateInputVal=dateInputVal.toLocaleDateString();
 
         let taskDiv= document.createElement('div');
         taskDiv.classList.add('tasks');
@@ -556,5 +596,16 @@ function CompletedTaskBtnHandler(){
      
     })
 }
+
+console.log('taskSelection::',taskSelection.options);
+
+taskSelection=el('taskSelection')
+
+
+
+
+
+
+
 
 // localStorage.clear();

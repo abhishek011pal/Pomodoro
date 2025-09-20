@@ -78,11 +78,21 @@
     
         <!-- right side div timer wala -->
         <div id="rightDiv" class="rightDiv">
-            <div class="rightHeaader">
-                <div class="updatetime hover" id="updatetime" data-text="⚙️ Update Pomodoro" data-icon="⚙️">                    
-                    <!-- <i class="fa-solid fa-gears"></i> -->
-                    
+            <div class="rightHeaader">                
+                <div id="taskSelectionParent">
+                    <select name="tasks" id="taskSelection">
+                        <option value="" disabled selected hidden>Select Task</option>
+                        <!-- <option value="tskOpt">option1</option>
+                        <option value="tskOpt">option2</option>
+                        <option value="tskOpt">option2</option>
+                        <option value="tskOpt">option3</option> -->
+                    </select>
                 </div>
+
+                <div class="updatetime hover" id="updatetime" data-text="⚙️ Update Pomodoro" data-icon="⚙️">                    
+                    <!-- <i class="fa-solid fa-gears"></i> -->                         
+                </div>
+
             </div>
 
             <div class="rightBody">
