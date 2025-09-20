@@ -5,11 +5,8 @@ A simple and effective Pomodoro Timer built with HTML, CSS, and JavaScript to he
 🔗 Live Demo: https://pomodoro-sepia-beta.vercel.app/
 
 📸 Screenshots
-Desktop View
-(.\Private\Screenshot 2025-09-20 140420.png)
-
-Mobile View
-(.\Private\Screenshot 2025-09-20 140639.png)
+![Desktop Screenshot](./Private/desktop.png)
+![Mobile Screenshot](./Private/mobile.png)
 
 
 # 🚀 Features
