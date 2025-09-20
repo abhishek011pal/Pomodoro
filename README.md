@@ -11,13 +11,13 @@
 
 **🌓 Responsive Design:** Works on both desktop & mobile
 
-⏱️ Start / Pause / Reset Controls
+*⏱️ Start / Pause / Reset Controls*
 
-🔔 Audio notification when timer ends
+*🔔 Audio notification when timer ends*
 
-📊 Tracks multiple cycles
+*📊 Tracks multiple cycles*
 
-**🛠️ Tech Stack**
+## 🛠️ Tech Stack
 
 HTML5
 
