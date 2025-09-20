@@ -26,7 +26,7 @@ CSS3
 JavaScript (Vanilla)
 
 📸 Screenshots
-![Desktop Screenshot](./Private/dekstop.png)
+![Desktop Screenshot](./dekstop.png)
 
-![Mobile Screenshot](./Private/mobile.png)
+![Mobile Screenshot](./mobile.png)
 
